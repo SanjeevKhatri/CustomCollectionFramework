@@ -3,15 +3,21 @@
 
 # For ArrayList
 public interface DefaultOperation {
+
 	public void add(int item);
+	
 	public void remove();
+	
 	public Integer get(int index);
+	
 	public boolean isEmpty();
+	
 	public int size();
 }
 
 # For LinkedList
 public interface GenericDefaultOperations<T> {
+
 	public void add(T item);
 	
 	public T get(int index);
